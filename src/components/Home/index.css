@@ -1,0 +1,96 @@
+.home-container {
+  min-height: 100vh;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+@media screen and (min-width: 768px) {
+  .home-container {
+    padding-left: 140px;
+    padding-right: 140px;
+  }
+}
+.home-content-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.home-text-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media screen and (min-width: 768px) {
+  .home-text-container {
+    width: 40vw;
+    margin-right: 30px;
+  }
+}
+.home-title {
+  font-size: 34px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  color: #1e293b;
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .home-title {
+    font-size: 42px;
+    text-align: left;
+  }
+}
+.clothes-image-sm {
+  display: block;
+  width: 60%;
+  margin-bottom: 20px;
+}
+@media screen and (min-width: 768px) {
+  .clothes-image-sm {
+    display: none;
+  }
+}
+.home-description {
+  font-size: 13px;
+  font-weight: 400;
+  font-family: 'Roboto';
+  color: #64748b;
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .home-description {
+    font-size: 16px;
+    text-align: left;
+  }
+}
+.show-now-btn {
+  font-size: 12px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  color: #e6f6ff;
+  background-color: #0967d2;
+  border: none;
+  border-radius: 6px;
+  padding: 9px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  outline: none;
+}
+@media screen and (min-width: 768px) {
+  .show-now-btn {
+    padding-left: 22px;
+    padding-right: 22px;
+    align-self: flex-start;
+  }
+}
+.clothes-image-lg {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .clothes-image-lg {
+    display: block;
+    width: 30vw;
+  }
+}
